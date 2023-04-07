@@ -1,0 +1,10 @@
+2、music-website项目
+
+<!--Mybatis-generator插件,用于自动生成Mapper和POJO-->
+
+记得添加插件，然后generatorConfig.xml中连接数据库的账号密码要修改 tp_music root admin
+第一种：
+使用命令行来运行：
+mvn mybatis-generator:generate
+
+这个生成以后，记得将pom.xml中的该插件注释掉， 否则每次都会将代码覆盖
