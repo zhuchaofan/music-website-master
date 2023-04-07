@@ -108,6 +108,7 @@ public class YinMusicApplicationTests {
      @Test
      public void consumerTest2()
      {
+         //测试push功能
          String PROJECT_PATH = System.getProperty("user.dir");
          System.out.println(PROJECT_PATH);
          System.out.println("hello world");
